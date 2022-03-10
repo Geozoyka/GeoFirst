@@ -1,0 +1,237 @@
+body {
+  margin: 0 auto;
+  max-width: 1280px;
+  font-family: montserrat;
+}
+
+.container {
+  display: flex;
+}
+
+.foto-logo {
+  position: relative;
+}
+
+.main-plant {
+  max-width: 608px;
+  position: relative;
+}
+
+.logo1 {
+  position: absolute;
+  left: 56px;
+  top: 40px;
+}
+
+.nav-head {
+  align-items: center;
+  padding-top: 40px;
+  margin-left: 250px;
+  width: 380px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.sign-Up {
+  color: #156963;
+  font-family: Nunito;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+}
+
+.sign-In {
+  color: white;
+  background-color: #156963;
+  height: 36px;
+  width: 111px;
+  font-family: Nunito;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+  padding-top: 7px;
+}
+
+h1 {
+  font-size: 68px;
+  font-weight: 500;
+  line-height: 83px;
+  max-width: 523px;
+  color: #156963;
+  margin-left: 77px;
+  margin-top: 110px;
+}
+
+.text-offer {
+  height: 96px;
+  width: 493px;
+  margin-left: 77px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  margin-top: 24px;
+}
+
+.previous-next {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 110px;
+  margin-right: -90px;
+}
+
+/* ЛЕВая кнопка */
+
+.wrap-previous {
+  display: flex;
+}
+
+.btn-L {
+  /* margin-left: 53px; */
+  /* text-align: center; */
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 39px;
+}
+
+.kaktus {
+  color: #156963;
+}
+
+.previous {
+  color: #999999;
+  margin-top: 40px;
+  margin-bottom: 13px;
+  margin-left: 15px;
+}
+
+.previous-arrow {
+  margin-top: 28px;
+}
+
+/* Правая КНОПКА */
+.wrap-next {
+  display: flex;
+  color: #ffffff;
+}
+
+.btn-R {
+  height: 160px;
+  width: 320px;
+  background-color: #156963;
+  margin-left: 53px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 39px;
+}
+
+.next,
+.next-arrow {
+  margin-top: 40px;
+  color: #83adaa;
+}
+
+.next {
+  margin-left: 49px;
+  margin-right: 15px;
+  margin-bottom: 13px;
+}
+
+.Rahasia {
+  color: white;
+}
+/* Карточки клиента */
+
+.cards-action {
+  display: flex;
+  width: 1168px;
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-top: 140px;
+}
+
+.wraps-icon {
+  display: flex;
+  align-items: center;
+}
+
+.card-item {
+  height: 155px;
+  width: 268px;
+  left: 600px;
+  padding: 16px;
+  border: 1px solid #e0e0e0;
+}
+
+.wraps-icon + p {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 16px;
+  margin-top: 20px;
+}
+
+.wraps-icon h5 {
+  color: #156963;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-left: 20px;
+}
+
+/* Кнопка выбора */
+.line-featured-plants {
+  width: 1168px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 140px;
+}
+
+.line-featured-plants h5 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.line-featured-plants {
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 16px;
+  margin-bottom: 25px;
+}
+
+.button {
+  width: 130px;
+  height: 31px;
+  font-size: 12px;
+  border: 1px solid #e0e0e0;
+  font-weight: 500;
+  line-height: 15px;
+}
+
+.arrow-down {
+  margin-top: 5px;
+  margin-left: 15px;
+}
+/* выбор растений */
+
+.plants {
+  width: 1168px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.plants a {
+  color: black;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 15px;
+}
+
+.plants-name {
+  font-weight: 400;
+  margin-top: 20px;
+}
+/* Buy more plants */
